@@ -1,24 +1,34 @@
 package com.webcar.WebCar.Models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Entity
+@Table(name = "table")
 public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
+    @CollectionTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"))
+    @Enumerated(EnumType.STRING)
+    private Set<Role> roles;
+
     private String email, name, surname, password;
     private int rating;
 
-    public Post(String name, String surname, String email) {
+    public Post(String email, String name, String surname, String  password) {
         this.name = name;
         this.surname = surname;
         this.email = email;
+        this.password = password;
+    }
+
+    public Post(String email, String password) {
+        this.email = email;
+        this.password = password;
     }
 
     public Post() {
