@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b42f068d-f623-4f2f-bd6d-faa300571a3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/Controllers/AuthorizationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/Controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/Controllers/RentaCarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/Models/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/Repo/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/java/com/webcar/WebCar/WebCarApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/resources/templates/authorization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/main/resources/templates/rent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCar/src/test/java/com/webcar/WebCar/WebCarApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sigRiJ53LfFvH3ShTAhh1r3Sik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebCar" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WebCarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="WebCar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.webcar.WebCar.WebCarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b42f068d-f623-4f2f-bd6d-faa300571a3f" name="Default Changelist" comment="" />
+      <created>1621360817881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621360817881</updated>
+      <workItem from="1621360819395" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="298" key="FileChooserDialogImpl" timestamp="1621360912368">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1621360912368" />
+  </component>
+</project>

@@ -24,7 +24,10 @@ public class AuthorizationController {
     }
 
     @PostMapping("/authorization")
-    public String postAdd(@RequestParam String email, @RequestParam String name, @RequestParam String surname, Model model){
+    public String postAdd(@RequestParam String email,
+                          @RequestParam String name,
+                          @RequestParam String surname,
+                          Model model){
         Post post = new Post(name, surname, email);
         postRepository.save(post);
         return "redirect:/rent";
