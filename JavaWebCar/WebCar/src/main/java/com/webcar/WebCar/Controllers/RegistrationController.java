@@ -1,32 +1,44 @@
 package com.webcar.WebCar.Controllers;
 
 import com.webcar.WebCar.Models.Post;
+import com.webcar.WebCar.Models.Role;
 import com.webcar.WebCar.Repo.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.parameters.P;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.Collections;
+
 @Controller
-public class AuthorizationController {
+public class RegistrationController {
 
     @Autowired
     private PostRepository postRepository;
 
-    @GetMapping("/authorization")
+    @GetMapping("/registration")
     public String authoMain(Model model){
         Iterable<Post> posts = postRepository.findAll();
         model.addAttribute("posts", posts);
-        return "authorization";
+        return "registration";
     }
 
-    @PostMapping("/authorization")
-    public String postAdd(@RequestParam String email, @RequestParam String name, @RequestParam String surname, Model model){
-        Post post = new Post(name, surname, email);
-        postRepository.save(post);
+    @PostMapping("/registration")
+    public String postAdd(Post post,
+                          Model model){
+        Post postFromDb = postRepository.findByEmail(post.getEmail());
+
+        if (postFromDb != null) {
+            model.addAttribute("message", "The same user exists!");
+            return "registration";
+        }
+
+        post.setRoles(Collections.singleton(Role.USER));
+        ResponseEntity.ok(postRepository.save(post));
+
         return "redirect:/rent";
     }
 
