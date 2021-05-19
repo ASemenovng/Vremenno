@@ -30,7 +30,9 @@ public class AuthorizationController {
                           Model model){
         Post post = new Post(name, surname, email);
         postRepository.save(post);
-        return "redirect:/rent";
+
+//        model.addAttribute("posts", posts);
+        return "rent";
     }
 
 }

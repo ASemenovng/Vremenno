@@ -35,12 +35,13 @@
             <h6>Surname</h6>
             <input type="text" name ="surname" placeholder = "Ivanov" class="form-control"><br>
             <input type="checkbox" value="remember-me"> Remember me <br>
-            <button type ="submit" class = "btn btn-success" onClick='location.href="/rent"'>Sign up</button>
+<!--            <input type='hidden' value='${_csrf.token}' name='${_csrf.parameterName}'>-->
+            <button type ="submit" class = "btn btn-success">Sign up</button>
         </form>
     </main>
 
 </div>
-
+<!--onClick='location.href="/rent"'-->
 
 <footer class="container py-5">
     <div class="row">
